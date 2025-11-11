@@ -9,9 +9,9 @@ import pandas as pd
 from PIL import Image
 
 # ---- EDIT THESE THREE VALUES ONCE ----
-FTP_HOST = "123.45.67.89"      # e.g. "123.45.67.89" or "ftp.myserver.com"
-FTP_USER = "gorden"           # e.g. "gorden"
-FTP_PASS = "myStrongPassword"           # e.g. "myStrongPassword"
+FTP_HOST = "peedtest.tele2.net"      # e.g. "123.45.67.89" or "ftp.myserver.com"
+FTP_USER = "anonymous"           # e.g. "gorden"
+FTP_PASS = "anonymous@"           # e.g. "myStrongPassword"
 # --------------------------------------
 
 st.set_page_config(page_title="FTP Cloud Browser", page_icon="🌐", layout="wide")
@@ -82,3 +82,4 @@ if st.button("🔄 List Files"):
 
 st.markdown("---")
 st.caption("💡 Upload this single App.py to GitHub → Deploy on streamlit.io → Ready to browse your FTP files.")
+
